@@ -11,11 +11,3 @@ body {
 .vertical {
   writing-mode: vertical-lr;
 }
-
-.triangle {
-  width:0px;
-  height:0px;
-  border-right:60px solid  transparent;
-  border-bottom:60px solid yellow;
-  border-left:60px solid transparent;
-}
