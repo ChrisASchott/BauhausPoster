@@ -40,10 +40,15 @@ body {
   border-left:300px solid transparent;
   grid-column-start: 4fr;
   grid-column-end: 10fr;
+  float: left;
 }
 
 .square {
   width:400px;
   height:400px;
-  fill: red;
+  background-color: red;
+  transform: rotate(45deg);
+  grid-column-start: 2fr;
+  grid-column-end: 9fr;
+  opacity: 0.65;
 }
