@@ -8,9 +8,14 @@ body {
   grid-column-gap: 24px;
 }
 
-.vertical-text {
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);  
+.vertical {
+  writing-mode: vertical-lr;
+}
+
+.triangle {
+  width:0px;
+  height:0px;
+  border-right:60px solid  transparent;
+  border-bottom:60px solid yellow;
+  border-left:60px solid transparent;
 }
