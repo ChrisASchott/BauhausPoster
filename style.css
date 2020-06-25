@@ -16,13 +16,7 @@ header {
 
 .vertical {
   transform: rotate(-90deg);
- -webkit-transform: rotate(-90deg);
- -moz-transform: rotate(-90deg);
- -ms-transform: rotate(-90deg);
- -o-transform: rotate(-90deg);
- filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
  font-size: 80px;
- float: right;
 }
 
 .circle {
@@ -42,7 +36,6 @@ header {
   border-left: 300px solid transparent;
   grid-column-start: 4;
   grid-column-end: 10;
-  float: left;
 }
 
 .square {
