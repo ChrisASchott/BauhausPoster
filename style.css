@@ -15,8 +15,9 @@ header {
 }
 
 .vertical {
-transform: rotate(-90deg);
  font-size: 80px;
+ transform: rotate(-90deg);
+transform-origin: left;
 }
 
 .circle {
