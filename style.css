@@ -9,6 +9,11 @@ body {
   grid-column-gap: 0px;
 }
 
+header {
+  grid-column-start: 1fr;
+  grid-column-end: 3fr;
+}
+
 .vertical {
   transform: rotate(-90deg);
  -webkit-transform: rotate(-90deg);
@@ -17,8 +22,6 @@ body {
  -o-transform: rotate(-90deg);
  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
  font-size: 80px;
- grid-column-start: 1fr;
- grid-column-end: 3fr;
  float: right;
 }
 
