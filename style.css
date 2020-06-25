@@ -6,6 +6,7 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 0px;
 }
 
@@ -15,9 +16,27 @@ header {
 }
 
 .vertical {
- font-size: 80px;
+ font-size: 200px;
  transform: rotate(-90deg);
  transform-origin: right;
+ margin: 0;
+}
+
+.bauhaus {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  color: white;
+}
+
+.bauhaus h2 {
+  font-size: 72px;
+  margin: 0;
+}
+
+.bauhaus p {
+  margin: 0;
 }
 
 .circle {
@@ -27,24 +46,47 @@ header {
   width: 600px;
   grid-column-start: 2;
   grid-column-end: 9;
+  grid-row-start: 1;
 }
 
 .triangle {
   width:0px;
   height:0px;
-  border-right: 300px solid  transparent;
-  border-left: 300px solid transparent;
-  border-bottom: 450px solid yellow;
-  grid-column-start: 2;
+  border-right: 450px solid  transparent;
+  border-left: 450px solid transparent;
+  border-bottom: 600px solid yellow;
+  opacity: 0.65;
+  grid-column-start: 3;
   grid-column-end: 10;
+  grid-row-start: 2;
 }
 
 .square {
-  width:400px;
-  height:400px;
+  width: 600px;
+  height: 600px;
   background-color: red;
   transform: rotate(45deg);
+  opacity: 0.65;
   grid-column-start: 2;
   grid-column-end: 9;
-  opacity: 0.65;
+  grid-row-start: 3;
+}
+
+.date {
+ font-size: 200px;
+ transform: rotate(-90deg);
+ transform-origin: right;
+ margin: 0;
+ grid-column-start: 2;
+ grid-row-start: 2;
+}
+
+.webaddress {
+ font-size: 30px;
+ color: black;
+ transform: rotate(-90deg);
+ transform-origin: right;
+ margin: 0;
+ grid-column-start: 9;
+ grid-row-start: 2;
 }
