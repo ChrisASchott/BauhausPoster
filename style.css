@@ -15,7 +15,7 @@ header {
 }
 
 .vertical {
-  transform: rotate(-90deg);
+transform: rotate(-90deg);
  font-size: 80px;
 }
 
