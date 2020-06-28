@@ -5,26 +5,31 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(10 200px);
+  grid-template-rows: repeat(10 200px);
   grid-column-gap: 0px;
 }
 
 header {
   grid-column-start: 1;
   grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 .vertical {
  font-size: 200px;
  transform: rotate(-90deg);
- transform-origin: right;
- margin: 0;
+ transform-origin: bottom right;
+ grid-column-start: 1;
+ grid-column-end: 2;
+ grid-row-start: 1;
+ grid-row-end: 3;
 }
 
 .bauhaus {
   grid-column-start: 3;
-  grid-column-end: 7;
+  grid-column-end: 6;
   grid-row-start: 1;
   grid-row-end: 2;
   color: white;
@@ -45,8 +50,9 @@ header {
   border-radius: 300px;
   width: 600px;
   grid-column-start: 2;
-  grid-column-end: 9;
+  grid-column-end: 10;
   grid-row-start: 1;
+  grid-row-end: 10;
 }
 
 .triangle {
@@ -56,9 +62,10 @@ header {
   border-left: 450px solid transparent;
   border-bottom: 600px solid yellow;
   opacity: 0.65;
-  grid-column-start: 3;
+  grid-column-start: 2;
   grid-column-end: 10;
   grid-row-start: 2;
+  grid-row-end: 10;
 }
 
 .square {
@@ -76,9 +83,9 @@ header {
  font-size: 200px;
  transform: rotate(-90deg);
  transform-origin: right;
- margin: 0;
  grid-column-start: 2;
  grid-row-start: 2;
+ grid-row-end: 4;
 }
 
 .webaddress {
@@ -86,7 +93,9 @@ header {
  color: black;
  transform: rotate(-90deg);
  transform-origin: right;
- margin: 0;
  grid-column-start: 9;
+ grid-column-end: 11;
  grid-row-start: 2;
+ grid-row-start: 3;
+ grid-row-end: 6;
 }
