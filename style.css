@@ -63,7 +63,7 @@ header {
   border-bottom: 600px solid yellow;
   opacity: 0.65;
   grid-column-start: 2;
-  grid-column-end: 10;
+  grid-column-end: 11;
   grid-row-start: 3;
   grid-row-end: 10;
 }
